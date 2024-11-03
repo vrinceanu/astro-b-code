@@ -37,7 +37,7 @@ def A_reduced(n1, n2):
             np.sum([(2*l + 1)*A(n1,l,n2,l+1) for l in range(n1)]))/n1**2
         
 
-nT = 61
+nT = 501
 transitions = []
 rates = []
 for i in range(2, nT):
